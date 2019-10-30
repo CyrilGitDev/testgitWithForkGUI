@@ -1,0 +1,29 @@
+.titre {
+	padding: 5px;
+    background-color: red;
+    color: blue;
+}
+
+body {
+	/*display: flex;*/
+    padding: 5px;
+    background-color: grey;
+    color: #fff;
+    position: fixed;
+}
+
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+}
